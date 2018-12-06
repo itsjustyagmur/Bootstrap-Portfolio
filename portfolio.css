@@ -1,0 +1,78 @@
+body{
+font-family: 'Muli';
+background: url(background.jpg);
+}
+* {
+    box-sizing: border-box;
+  }
+
+h1 {
+    padding-bottom: 20px;
+    font-size: 30px;
+    line-height: 49px;
+    border-bottom: 3px solid #dddddd;
+  }
+header{
+    color: rgb(160, 173, 175);
+}
+.main-section {
+    float: left;
+    width: 100%;
+    max-width: 960px;
+    padding: 30px;
+    margin: 0 0 40px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+  }
+#main-container {
+    padding-top: 130px;
+    min-height: calc(100vh - 70px);
+  }
+.container {
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+    clear: both;
+  }
+  .work {
+    position: relative;
+    float: left;
+    width: 274px;
+    margin: 20px 0 25px;
+    overflow: auto;
+  }
+ 
+  .work img {
+    width: 100%;
+    border: 0 none;
+    opacity: 0.8;
+  }
+  .work:nth-child(even) {
+    margin-right: 40px;
+  }
+  .work h2 {
+    position: absolute;
+    bottom: 20px;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 0;
+    font-weight: 300;
+    line-height: 30px;
+    color: black;
+    text-align: center;
+    background: grey;
+    border-bottom: 0;
+  }
+  .word:hover {background: whitesmoke;
+  position: absolute;
+  opacity: 0;
+  transition: 1s ease;
+}
+  
+  .auth-image {
+    float: left;
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-right: 25px;
+  }
